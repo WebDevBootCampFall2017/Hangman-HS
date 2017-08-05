@@ -12,7 +12,7 @@ namespace Hangman
         {
             Console.Title = "Guess a Word!";
 
-            string[] wordBank = { "monitor", "motherboard", "public", "git", "asus" };
+            string[] wordBank = { "monitor", "motherboard", "public", "git", "microsoft" };
             Random rnd_word = new Random();
             string wordToGuess = wordBank[(int)(rnd_word.NextDouble() * wordBank.Length)];
             string wordUpperCase = wordToGuess.ToUpper();
